@@ -5,6 +5,7 @@ import About from '../about/about';
 import Landing from '../landing/landing';
 import contact from '../contact/contact';
 import Portfolio from '../portfolio/portfolio.js';
+import './app.css';
 
 class App extends React.Component {
   render() {
