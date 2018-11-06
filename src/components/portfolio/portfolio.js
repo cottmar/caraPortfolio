@@ -10,6 +10,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div className="projects">
+      {/* <Carousel/> */}
       <h1>MY PROJECTS</h1>
         <div className="finders">
           <h2><a href='https://finders-keepers-frontend.herokuapp.com/'></a><img src={finders} alt="game play" width='90px'/></h2>
@@ -29,8 +30,8 @@ class Portfolio extends React.Component {
         </div>
         <div className="Quiz">
           <h2><a href='https://ggrieb.github.io/death-becomes-you/learn.html#sea'></a><img src={quiz} alt="quiz" width='90px'/></h2>
-          <p>Tongue-in-cheek quiz designed to help you decide what burial option to choose when "Death Becomes You" - a technological solution to a real-world problem.</p>
-        <Link to='/about'><button>learn about me</button></Link>
+          <p>Tongue-in-cheek quiz designed to help you decide what burial option to choose when "Death Becomes You" - a technological solution to a real-world problem.</p> */}
+         <Link to='/about'><button>learn about me</button></Link>
         </div>
       </div>
     )

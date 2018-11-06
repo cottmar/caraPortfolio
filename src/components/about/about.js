@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import me from '../../assets/me/00100sPORTRAIT_00100_BURST20180917083737026_COVER.jpg';
-// import '../../components/About/links';
+import './about.css';
 
 class About extends Component {
   render() {
