@@ -1,5 +1,6 @@
 html, body {
   background-color: rgb(15, 22, 15);
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -11,7 +12,11 @@ a :hover {
   color: lightpink;
 }
 
+nav {
+  text-align: right;
+}
+
 li {
-  float: right;
+  display: inline-block;
   margin: 15px;
 }
