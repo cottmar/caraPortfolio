@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from '../header/header';
 import About from '../about/about';
-// import Landing
+import Landing from '../landing/landing';
 import Portfolio from '../portfolio/portfolio.js';
 
-class App extends Component.React {
+class App extends React.Component {
   render() {
     return (
       <div className='app'>
@@ -21,3 +21,5 @@ class App extends Component.React {
     )
   }
 }
+
+export default App
