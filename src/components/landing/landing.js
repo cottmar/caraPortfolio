@@ -6,14 +6,16 @@ import './landing.css';
 class Landing extends React.Component {
   render() {
     return (
-      <div className='landing'>
+    <div>
+    <div className='pic'>
       <img src={me}/>
+    </div>
+    <div className='blurb'>
         <h1>Nice to meet you</h1>
-        <div className='blurb'>
           <h2>My name's <span>Cara Ottmar</span>. I'm a Fullstack <span>software developer</span> with a background in the financial industry.
           </h2>
-      </div>
-      </div>
+    </div>
+    </div>
     )
   }
 }

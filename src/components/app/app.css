@@ -4,8 +4,8 @@ html, body {
 }
 
 a {
+  color: lightblue;
   text-decoration: none;
-  color: white;
 }
 
 a :hover {
@@ -13,7 +13,12 @@ a :hover {
 }
 
 nav {
-  text-align: right;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* color: white; */
+  text-align: center;
 }
 
 li {
