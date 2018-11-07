@@ -33,15 +33,25 @@ span {
 
   div {
     display: flex;
+    flex-direction: initial;
     align-items: center;
     max-width: 42em;
+  }
+
+  .blurb {
+    height: 370px;
+    width: 370px;
+    display: inline-block;
+    padding-top: 100px;
+    padding-right: 0;
+    padding-left: 200px;
   }
 
  .pic {
    padding-top: 100px;
    padding-right: 0;
    height: 370px;
-   width: 370px;
+   width: 400px;
  }
 
   img {
@@ -52,15 +62,30 @@ span {
   
   h1 {
     color: lightpink;
+    margin: 30px;
+    padding: 20px;
+    width: 370px;
   }
   
   h2 {
     color: mediumaquamarine;
     font-size: 1.3em;
+    margin: 30px;
+    padding: 20px;
+    width: 370px;
+    /* white-space: nowrap; */
+
   }
   
 span {
     color: rgb(220, 169, 41);
     font-size: 1.1em;
   }
+
+a {
+  font-size: 1.3em;
+  margin: 32px;
+  padding: 20px;
+  width: 370px;
+}
 }
