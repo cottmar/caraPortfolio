@@ -1,6 +1,7 @@
 @media only screen and (max-width: 640px) {
   .blurb {
     text-align: justify;
+    padding: 10px;
   }
 
   .pic {
@@ -11,17 +12,22 @@
   img {
     height: 370px;
     width: 370px;
+    padding: 20px;
     /* center it */
   }
   
   h1 {
     color: lightpink;
+    padding: 10px;
+    text-align: center;
   }
   
   h2 {
     color: mediumaquamarine;
     font-size: 1.3em;
+    padding: 10px;
   }
+
   
 span {
     color: rgb(220, 169, 41);
@@ -42,7 +48,7 @@ span {
     height: 370px;
     width: 370px;
     display: inline-block;
-    padding-top: 100px;
+    padding-top: 55px;
     padding-right: 0;
     padding-left: 200px;
   }
