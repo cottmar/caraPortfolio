@@ -1,17 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import me from '../../assets/me/00100sPORTRAIT_00100_BURST20180917083737026_COVER.jpg';
 import './landing.css';
 
 class Landing extends React.Component {
   render() {
     return (
-      <div className='landing'>
-        <h1>Hi, I'm <em className='bold'>Cara Ottmar</em></h1>
-        <h2>I am a Full-Stack Software Developer (MERN) with a professional background working in the financial indsutry.<br></br>
-            I have a passion for collaboration, innovation, and efficiency.<br></br>
-            I am inspired and motivated by how technology brings these three passions together to help make the world a better place.</h2>
-        <Link to='/Portfolio'><button>portfolio</button></Link>
-        </div>
+    <div>
+    <div className='pic'>
+      <img src={me}/>
+    </div>
+    <div className='blurb'>
+        <h1>Nice to meet you</h1>
+          <h2>My name's <span>Cara Ottmar</span>. I'm a Fullstack <span>software developer</span> with a background in the financial industry.
+          </h2>
+    </div>
+    </div>
     )
   }
 }

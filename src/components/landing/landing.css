@@ -1,45 +1,66 @@
 @media only screen and (max-width: 640px) {
-  .landing {
-    color: white;
-    padding: 2vw;
-    width: 100%;
-    max-height: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    vertical-align: center;
+  .blurb {
+    text-align: justify;
   }
 
-  button {
-    border-radius: 25px;
-    height: 5vh;
-    width: 10vh;
+  .pic {
+    height: 370px;
+    width: 370px;
+  }
+
+  img {
+    height: 370px;
+    width: 370px;
+    /* center it */
+  }
+  
+  h1 {
+    color: lightpink;
+  }
+  
+  h2 {
+    color: mediumaquamarine;
+    font-size: 1.3em;
+  }
+  
+span {
+    color: rgb(220, 169, 41);
+    font-size: 1.1em;
   }
 }
 
 @media only screen and (min-width: 640px) {
-  .landing {
-    color: white;
-    padding: 2vw;
-    width: 100%;
-    max-height: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    vertical-align: center;
-    text-align: center;
-    border-style: double;
-    border-color: white;
-    border-width: 5px;
+
+  div {
+    display: flex;
+    align-items: center;
+    max-width: 42em;
   }
 
-  button {
-    height: 5vh;
-    width: 10vh;
-    border-radius: 25px;
+ .pic {
+   padding-top: 100px;
+   padding-right: 0;
+   height: 370px;
+   width: 370px;
+ }
+
+  img {
+    height: 370px;
+    width: 370px;
+    padding-left: 150px;
+  }
+  
+  h1 {
+    color: lightpink;
+  }
+  
+  h2 {
+    color: mediumaquamarine;
+    font-size: 1.3em;
+  }
+  
+span {
+    color: rgb(220, 169, 41);
+    font-size: 1.1em;
   }
 }

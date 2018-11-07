@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link } from 'react-router-dom';
 
 
-class Header extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <div className='header'>
@@ -14,9 +14,6 @@ class Header extends React.Component {
             <Link to='/Portfolio'>Portfolio</Link>
           </li>
           <li>
-            <Link to='/About'>About Me</Link>
-          </li>
-          <li>
             <Link to='/contact'>Contact</Link>
           </li>
         </nav>
@@ -25,4 +22,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header
+export default Footer
