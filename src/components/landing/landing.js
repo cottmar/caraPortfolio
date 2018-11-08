@@ -12,8 +12,10 @@ class Landing extends React.Component {
     </div>
     <div className='blurb'>
         <h1>Nice to meet you</h1>
-          <h2>My name's <span>Cara Ottmar</span>. I'm a Fullstack <span>software developer</span> with a background in the financial industry.
+          <h2>My name is <span>Cara Ottmar</span>. I'm a Fullstack <span>software developer</span> with a background in the financial industry.<br></br>
+          Bachelor of Science. MERN.
           </h2>
+          <a href="https://github.com/cottmar/markdownResume/blob/master/resume.md">Resume</a>
     </div>
     </div>
     )

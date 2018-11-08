@@ -1,6 +1,6 @@
 html, body {
   background-color: rgb(15, 22, 15);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 }
 
 a {
@@ -17,11 +17,12 @@ nav {
   left: 0;
   bottom: 0;
   width: 100%;
-  /* color: white; */
+  background-color: rgb(26, 36, 26);
   text-align: center;
 }
 
 li {
   display: inline-block;
   margin: 15px;
+  font-size: 1.7em;
 }
