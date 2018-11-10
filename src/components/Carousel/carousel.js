@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import data from '../../data/data';
+import Card from '../../card';
+import './carousel.css';
 
 
 class Carousel extends Component {
@@ -37,6 +39,10 @@ class Carousel extends Component {
           onClick={() => this.prevPicture()}
           disabled={portfolio.index === 0}
           >Prev</button>
+
+          <div className="card">
+            <Card portfolio={portfolio} />
+          </div>
       </div>
     )
   }

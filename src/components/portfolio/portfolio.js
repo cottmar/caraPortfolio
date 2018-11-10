@@ -1,10 +1,10 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
-import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
-import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
-import quiz from '../../assets/quiz/Screen Shot 2018-11-05 at 11.09.24 PM.png';
-import sossms from '../../assets/sossms/Screen Shot 2018-11-05 at 11.07.30 PM.png';
-import strafford from '../../assets/strafford/0.png';
+// import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
+// import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
+// import quiz from '../../assets/quiz/Screen Shot 2018-11-05 at 11.09.24 PM.png';
+// import sossms from '../../assets/sossms/Screen Shot 2018-11-05 at 11.07.30 PM.png';
+// import strafford from '../../assets/strafford/0.png';
 import Carousel from '../Carousel/carousel';
 
 class Portfolio extends React.Component {
@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
     return (
       <div className="projects">
       <h1>MY PROJECTS</h1>
-      <Carousel/>
+        <Carousel/>
         {/* <div className="finders">
           <h2><a href='https://finders-keepers-frontend.herokuapp.com/'></a><img src={finders} alt="game play" width='90px'/></h2>
           <p>Full stack real-time, multiplayer game where users compete against the clock to find the most stars. Utilizing socket.io, ReactJS</p>
@@ -34,7 +34,7 @@ class Portfolio extends React.Component {
           <p>Tongue-in-cheek quiz designed to help you decide what burial option to choose when "Death Becomes You" - a technological solution to a real-world problem.</p> */}
          {/* <Link to='/about'><button>learn about me</button></Link> */}
         {/* </div> */} */}
-      // </div>
+      </div>
     )
   }
 }
