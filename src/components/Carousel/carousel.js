@@ -1,22 +1,44 @@
-import react from 'react';
-import SwiftSlider from 'react-swift-slider';
+import React, { Component } from 'react';
+import data from '../../data/data';
+
 
 class Carousel extends Component {
-  render() {
-    const data =  [
-      {'id':'1','src':'../../assets/strafford'},
-      {'id':'2','src':'../../assets/sossms'}
-      // {'id':'3','src':'/assets/images/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg'},
-      // {'id':'4','src':'/assets/images/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg'},
-      // {'id':'5','src':'/assets/images/ARWP_Infra_Desk_1920_1080_Quad.png'},
-      // {'id':'6','src':'/assets/images/ARWP_RearRunning_Desk_1920_1080_Hero.png'},
-      // {'id':'7','src':'/assets/images/ARWP_Running_Desk_1920_1080_Engine.png'},
-      // {'id':'8','src':'/assets/images/ARWP_Rear34Run_Desk_1920_1080_Hero.png'}
-    ];
+  constructor(props) {
+    super(props);
+    this.state = {
+      portfolio: data.portfolio,
+      portfolio: data.portfolio[0]
+    }
+  }
 
+  nextPicture = () => {
+    const newIndex = this.state.portfolio.index+1;
+    this.setState({
+      portfolio: data.portfolio[newIndex]
+    })
+  }
+
+  prevPicture = () => {
+    const newIndex = this.state.portfolio.index-1;
+    this.setState({
+      portfolio: data.portfolio[newIndex]
+    })
+  }
+
+  render() {
+    const { portfolio } = this.state;
     return (
-      <SwiftSlider data={data} height={900} enableNextAndPrev={false} />
-    );
+      <div className='carousel'>
+        <button
+          onClick={() => this.nextPicture()}
+          disabled={portfolio.index === data.portfolio.length-1}
+        >Next</button>
+        <button 
+          onClick={() => this.prevPicture()}
+          disabled={portfolio.index === 0}
+          >Prev</button>
+      </div>
+    )
   }
 }
 
