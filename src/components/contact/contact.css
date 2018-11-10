@@ -22,9 +22,19 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 40%;
-  height: 50%;
-
+  height: 60%;
   }
+
+
+  /* .contactBlurb {
+    margin: 0 auto;
+    display: inline-block;
+    height: 50vw;
+    width: 100%;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+  } */
 }
 
   /* display: block;

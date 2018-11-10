@@ -8,8 +8,8 @@ a {
   text-decoration: none;
 }
 
-a :hover {
-  color: lightpink;
+ul :hover {
+  color: rgb(158, 113, 165);
 }
 
 nav {
@@ -25,4 +25,8 @@ li {
   display: inline-block;
   margin: 15px;
   font-size: 1.7em;
+}
+
+li :hover {
+  color: rgb(158, 113, 165);
 }
