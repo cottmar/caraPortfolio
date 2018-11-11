@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import me from '../../assets/me/00100sPORTRAIT_00100_BURST20180917083737026_COVER.jpg';
 import './landing.css';
 
@@ -8,7 +7,7 @@ class Landing extends React.Component {
     return (
     <div>
     <div className='pic'>
-      <img src={me}/>
+      <img src={me} alt="Cara"/>
     </div>
     <div className='blurb'>
         <h1>Nice to meet you</h1>
