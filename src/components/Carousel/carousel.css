@@ -1,14 +1,6 @@
 
-div.details {
-  color: gold;
-}
-
-span.index {
-  color: hotpink;
-}
-
-img {
-  margin: 0;
-  padding: 0;
-  
+.slider {
+  width: 700px;
+  height: 700px;
+  position: relative;
 }
