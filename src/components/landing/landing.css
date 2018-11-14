@@ -1,37 +1,39 @@
-@media only screen and (max-width: 640px) {
-  .blurb {
-    text-align: justify;
-    padding: 10px;
-  }
-
+@media only screen and (max-width: 640px) {  
   .pic {
     height: 370px;
     width: 370px;
   }
-
-  img {
-    height: 370px;
-    width: 370px;
-    padding: 20px;
-    /* center it */
-  }
   
+ .pic img {
+  position: absolute;
+	max-width: 80%;
+	top: 5%;
+	left: 10%;
+ }
+
   h1 {
     color: lightpink;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
   
-  h2 {
+  .blurb h2 {
     color: mediumaquamarine;
     font-size: 1.3em;
+    margin: 0;
     padding: 10px;
+    text-align: justify;
   }
-
   
 span {
     color: rgb(220, 169, 41);
     font-size: 1.1em;
+  }
+
+  .blurb a {
+    margin: 0;
+    padding: 10px;
   }
 }
 
@@ -48,9 +50,10 @@ span {
     height: 370px;
     width: 370px;
     display: inline-block;
-    padding-top: 55px;
+    padding: 55px 0 10px 200px;
+    /* padding-top: 55px;
     padding-right: 0;
-    padding-left: 200px;
+    padding-left: 200px; */
   }
 
  .pic {
