@@ -60,12 +60,12 @@ span {
    width: 400px;
  }
 
-  img {
+  .pic img {
     height: 370px;
     width: 370px;
     padding-left: 150px;
   }
-  
+
   h1 {
     color: lightpink;
     margin: 30px;
