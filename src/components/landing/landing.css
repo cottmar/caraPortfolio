@@ -1,97 +1,67 @@
-@media only screen and (max-width: 640px) {
-  .blurb {
-    text-align: justify;
-    padding: 10px;
-  }
-
+@media only screen and (max-width: 640px) {  
   .pic {
     height: 370px;
     width: 370px;
   }
-
-  img {
-    height: 370px;
-    width: 370px;
-    padding: 20px;
-    /* center it */
-  }
   
+ .pic img {
+  position: absolute;
+	max-width: 80%;
+	top: 5%;
+	left: 10%;
+ }
+
   h1 {
     color: lightpink;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     text-align: center;
   }
   
-  h2 {
+  .blurb h2 {
     color: mediumaquamarine;
     font-size: 1.3em;
+    margin: 0;
     padding: 10px;
+    text-align: justify;
   }
-
   
 span {
     color: rgb(220, 169, 41);
     font-size: 1.1em;
+  }
+
+  .blurb a {
+    margin: 0;
+    padding: 10px;
   }
 }
 
 @media only screen and (min-width: 640px) {
-
-  div {
-    display: flex;
-    flex-direction: initial;
-    align-items: center;
-    max-width: 42em;
-  }
-
-  .blurb {
-    height: 370px;
-    width: 370px;
-    display: inline-block;
-    padding-top: 55px;
-    padding-right: 0;
-    padding-left: 200px;
-  }
-
- .pic {
-   padding-top: 100px;
-   padding-right: 0;
-   height: 370px;
-   width: 400px;
- }
-
   .pic img {
-    height: 370px;
-    width: 370px;
-    padding-left: 150px;
+    height: 28%;
+    width: 28%;
   }
 
-  h1 {
+  .blurb h1 {
     color: lightpink;
-    margin: 30px;
-    padding: 20px;
-    width: 370px;
   }
-  
-  h2 {
+
+  .blurb h2 {
     color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 30px;
-    padding: 20px;
-    width: 370px;
-    /* white-space: nowrap; */
-
-  }
-  
-span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
   }
 
-a {
-  font-size: 1.3em;
-  margin: 32px;
-  padding: 20px;
-  width: 370px;
-}
+  .blurb span {
+    color: #dca929;
+  }
+
+  .blurb a {
+    margin: 0;
+    padding: 10px;
+  }
+
+  a :hover {
+    color: rgb(158, 113, 165);
+  }
+
 }

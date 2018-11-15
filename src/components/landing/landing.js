@@ -5,14 +5,13 @@ import './landing.css';
 class Landing extends React.Component {
   render() {
     return (
-    <div>
+    <div className='landing'>
     <div className='pic'>
       <img src={me} alt="Cara"/>
     </div>
     <div className='blurb'>
         <h1>Nice to meet you</h1>
-          <h2>My name is <span>Cara Ottmar</span>. I'm a Fullstack <span>software developer</span> with a background in the financial industry.<br></br>
-          Bachelor of Science. MERN.
+          <h2>My name is <span>Cara Ottmar</span>. I'm a <span>Web Developer</span> with Fullstack skills (MERN) and a background in the financial industry.<br></br>
           </h2>
           <a href="https://github.com/cottmar/markdownResume/blob/master/resume.md">Resume</a>
     </div>
