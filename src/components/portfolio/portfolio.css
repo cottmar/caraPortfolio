@@ -8,9 +8,25 @@
   margin: auto;
 }
 
-.main img {
-  width: 100px;
-  height: 100px;
+div .content {
+  color: #dca929;
+  background-color: rgb(15, 22, 15);
+}
+
+.main h2, p {
+  color: mediumaquamarine;
+  text-align: center;
+
+}
+
+.content img {
+  padding-left: 100px;
+  width: 300px;
+  height: 200px;
+}
+
+.content h3 {
+  text-align: center;
 }
 
 h1 {

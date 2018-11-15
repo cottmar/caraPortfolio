@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
 import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
 import quiz from '../../assets/quiz/Screen Shot 2018-11-05 at 11.09.24 PM.png';
@@ -14,42 +13,41 @@ class Portfolio extends React.Component {
 
         <h1>CARA OTTMAR</h1>
         <h2>Portfolio</h2>
-        <p> Resize this to see?</p>
 
           <div className="row">
             <div className="column">
               <div className="content">
                 <img src={finders} alt="game"></img>
-                <h3>My Work</h3>
-                <p>Lorem </p>
+                <h3>Finders Keepers</h3>
+                <p>Full stack real-time, multiplayer game where users compete against the clock to find the most stars. Utilizing socket.io, ReactJS</p>
               </div>
             </div>
             <div className="column">
               <div className="content">
                 <img src={dogs} alt="dogs"></img>
-                <h3>My Work</h3>
-                <p>Lorem </p>
+                <h3>Plenty of Dogs</h3>
+                <p>Application designed to help you select a breed of dog, matching you with available adoptable rescue dogs in the Seattle, WA area.</p>
               </div>
             </div>
             <div className="column">
               <div className="content">
                 <img src={sossms} alt="npmjs"></img>
-                <h3>My Work</h3>
-                <p>Lorem </p>
+                <h3>SOS-SMS (npm)</h3>
+                <p>Easily enable an application to instantly notify developers of critical errors via SMS messages. Included custom NPM package.</p>
               </div>
             </div>
             <div className="column">
               <div className="content">
                 <img src={strafford} alt="land"></img>
-                <h3>My Work</h3>
-                <p>Lorem </p>
+                <h3>Land Ad</h3>
+                <p>Client application advertising acreage marketed as "For Sale by Owner</p>
               </div>
             </div>
             <div className="column">
               <div className="content">
                 <img src={quiz} alt="quiz"></img>
-                <h3>My Work</h3>
-                <p>Lorem </p>
+                <h3>Death Becomes You</h3>
+                <p>Tongue-in-cheek quiz designed to help you decide what burial option to choose when "Death Becomes You" - a technological solution to a real-world problem.</p>
               </div>
             </div>
           </div>
