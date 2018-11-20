@@ -6,11 +6,17 @@
 .main {
   max-width: 1000px;
   margin: auto;
+  padding: 10px;
 }
 
 div .content {
   color: #dca929;
   background-color: rgb(15, 22, 15);
+}
+
+.main h1 {
+  color: lightpink;
+  text-align: center;
 }
 
 .main h2, p {
@@ -20,8 +26,9 @@ div .content {
 }
 
 .content img {
-  padding-left: 100px;
-  
+  margin-right: 10px;
+  padding-left: 70px;
+  align-content: center;
   width: 300px;
   height: 200px;
 }
@@ -56,19 +63,6 @@ h1 {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-      width: 50%;
-  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
