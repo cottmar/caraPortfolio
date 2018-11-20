@@ -1,7 +1,6 @@
 import React from 'react';
 import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
 import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
-import quiz from '../../assets/quiz/Screen Shot 2018-11-05 at 11.09.24 PM.png';
 import sossms from '../../assets/sossms/Screen Shot 2018-11-05 at 11.07.30 PM.png';
 import strafford from '../../assets/strafford/0.png';
 import './portfolio.css';
@@ -17,7 +16,7 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="column">
               <div className="content">
-                <img src={finders} alt="game"></img>
+                <img src={finders} alt="game" link="https://github.com/spyosaurus/finders-keepers-frontend"></img>
                 <h3>Finders Keepers</h3>
                 <p>Full stack real-time, multiplayer game where users compete against the clock to find the most stars. Utilizing socket.io, ReactJS</p>
               </div>
@@ -41,13 +40,6 @@ class Portfolio extends React.Component {
                 <img src={strafford} alt="land"></img>
                 <h3>Land Ad</h3>
                 <p>Client application advertising acreage marketed as "For Sale by Owner</p>
-              </div>
-            </div>
-            <div className="column">
-              <div className="content">
-                <img src={quiz} alt="quiz"></img>
-                <h3>Death Becomes You</h3>
-                <p>Tongue-in-cheek quiz designed to help you decide what burial option to choose when "Death Becomes You" - a technological solution to a real-world problem.</p>
               </div>
             </div>
           </div>
