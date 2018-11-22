@@ -13,17 +13,18 @@ ul :hover {
 }
 
 nav {
-  position: fixed;
+  display: flex;
   left: 0;
   bottom: 0;
-  width: 100%;
+  min-height: 10vh;
   background-color: rgb(26, 36, 26);
-  text-align: center;
 }
 
 li {
-  display: inline-block;
+  /* display: inline-block; */
+  /* text-align: center; */
   margin: 15px;
+  flex: .2;
   font-size: 1.7em;
 }
 
