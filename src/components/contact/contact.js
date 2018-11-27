@@ -6,7 +6,7 @@ class Contact extends React.Component {
     return (
       <div className='contactBlurb'>
         <h1>I'm always happy<br></br>
-          to hear from you.</h1>
+        to hear from you.</h1>
         <h2>cara.ottmar@gmail.com</h2>
         <ul>
           <a href="https://github.com/cottmar">Github</a>
