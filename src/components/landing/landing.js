@@ -5,11 +5,11 @@ import './landing.css';
 class Landing extends React.Component {
   render() {
     return (
-    <div className='landing'>
-    <div className='pic'>
+    <div className='landingContainer'>
+    <div className='landingLeft'>
       <img src={me} alt="Cara"/>
-    </div>
-    <div className='blurb'>
+    </div>>
+    <div className='landingRight'>
         <h1>Nice to meet you</h1>
           <h2>My name is <span>Cara Ottmar</span>. I'm a <span>Web Developer</span> with Fullstack skills (MERN) and a background in the financial industry.<br></br>
           </h2>
