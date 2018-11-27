@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.footer li {
+  padding: 20px;
+}
+
 @media screen and (max-width: 959px) {
   .footer nav, li {
     width: 100%;

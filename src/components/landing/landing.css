@@ -86,6 +86,7 @@ span {
 .landingContainer {
   width: 960px;
   margin: 0px auto;
+  padding-top: 10%;
 }
 
 .landingLeft img {
@@ -127,6 +128,11 @@ span {
   color: #dca929;
 }
 
+.landingRight a {
+  padding: 2.4%;
+  font-size: 1.3rem;
+}
+
 /* .landingRight a :hover {
   color: rgb(158, 113, 165);
 } */
@@ -142,8 +148,14 @@ span {
     float: left;
   }
 
+  .landingLeft img {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
   .landingRight {
     float: left;
+    padding-top: 4%;
   }
 
   h1 {
@@ -170,30 +182,42 @@ span {
     color: #dca929;
   }
 
-  /* .landingRight a :hover {
-    color: rgb(158, 113, 165);
-  } */
+  .landingRight a {
+    padding: 3%;
+  }
 }
 
 @media screen and (max-width: 640px) {
+
+  .landingContainer {
+    padding: 1px 1px 1px 2px;
+  }
+
   .landingLeft {
     width: 100%;
   }
 
+  .landingLeft img {
+    margin-left: 30px;
+    padding: 20px;
+    align-content: center;
+  }
+
   .landingRight {
     width: 100%;
   }
 
-  h1 {
+  .landingRight h1 {
     color: lightpink;
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 2rem;
   }
 
   .landingRight h2 {
     color: mediumaquamarine;
-    font-size: 1.3em;
+    font-size: 1.5rem;
     margin: 0;
     padding: 10px;
     text-align: justify;
@@ -208,15 +232,16 @@ span {
     color: #dca929;
   }
 
-  /* .landingRight a :hover {
-    color: rgb(158, 113, 165);
-  } */
+  .landingRight a {
+    padding-left: 12px;
+    font-size: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
- .landingContainer {
-   width: 320px;
- }
+  .landingContainer {
+    width: 320px;
+  }
 
   h1 {
     color: lightpink;
