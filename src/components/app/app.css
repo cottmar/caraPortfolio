@@ -1,18 +1,17 @@
 html, body {
   background-color: rgb(15, 22, 15);
   font-family: 'Source Code Pro', monospace;
-  width: 960px;
-  margin: 0px auto;
+  display: flex;
 }
 
-/* a {
+a {
   color: lightblue;
   text-decoration: none;
-}
+} 
 
-ul :hover {
+/* ul :hover {
   color: rgb(158, 113, 165);
-} */
+} */ */
 
 /* nav {
   display: flex;
@@ -34,10 +33,8 @@ ul :hover {
   color: rgb(158, 113, 165);
 } */
 
-@media screen and (max-width: 959px) {
 
-  html, body {
-    width: 100%;
-  }
+
+@media screen and (max-width: 959px) {
 
 }

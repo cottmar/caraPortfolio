@@ -127,9 +127,9 @@ span {
   color: #dca929;
 }
 
-.landingRight a :hover {
+/* .landingRight a :hover {
   color: rgb(158, 113, 165);
-}
+} */
 
 
 /* for tablets  */
@@ -170,9 +170,9 @@ span {
     color: #dca929;
   }
 
-  .landingRight a :hover {
+  /* .landingRight a :hover {
     color: rgb(158, 113, 165);
-  }
+  } */
 }
 
 @media screen and (max-width: 640px) {
@@ -208,9 +208,9 @@ span {
     color: #dca929;
   }
 
-  .landingRight a :hover {
+  /* .landingRight a :hover {
     color: rgb(158, 113, 165);
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
@@ -242,7 +242,7 @@ span {
     color: #dca929;
   }
 
-  .landingRight a :hover {
+  /* .landingRight a :hover {
     color: rgb(158, 113, 165);
-  }
+  } */
 }
