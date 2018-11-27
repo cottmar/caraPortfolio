@@ -1,30 +1,32 @@
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 
-.footer nav, li {
+.footer nav {
   background-color: rgb(26, 36, 26);
-  color: lightblue;
+  /* color: lightblue; */
   list-style-type: none;
+  font-size: 1.5rem;
+  position: fixed;
+  height: 10%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
-  display: inline-block;
-  padding: 20px;
 }
 
 @media screen and (max-width: 959px) {
   .footer nav, li {
     width: 100%;
-    display: inline-block;
-
+    font-weight: 1.5rem;
   }
 }
 
 @media screen and (max-width: 640px) {
   .footer nav, li {
     width: 100%;
-    display: inline-block;
+    font-weight: 1rem;
+    /* display: inline-block; */
 
   }
 }
@@ -32,6 +34,7 @@
 @media screen and (max-width: 320px) {
   .footer nav, li {
     width: 100%;
-    display: inline-block;
+    font-weight: .5rem;
+    /* display: inline-block; */
   }
 }

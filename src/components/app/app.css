@@ -1,7 +1,6 @@
 html, body {
   background-color: rgb(15, 22, 15);
   font-family: 'Source Code Pro', monospace;
-  display: flex;
 }
 
 a {
