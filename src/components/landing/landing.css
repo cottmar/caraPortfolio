@@ -1,6 +1,6 @@
 /* MOBILE  */
 
-@media only screen and (max-width: 640px) {  
+/* @media only screen and (max-width: 640px) {  
   .pic {
     height: 370px;
     width: 370px;
@@ -37,11 +37,11 @@ span {
     margin: 0;
     padding: 10px;
   }
-}
+} */
 
  /* BROWSER  */
 
-@media only screen and (min-width: 640px) {
+/* @media only screen and (min-width: 640px) {
  
   .pic img {
     position: relative;
@@ -61,8 +61,6 @@ span {
   .blurb h1 {
     color: lightpink;
     position: relative;
-    /* margin: 30px; */
-    /* padding: 20px; */
   }
 
   .blurb h2 {
@@ -83,4 +81,4 @@ span {
     color: rgb(158, 113, 165);
   }
 
-}
+} */

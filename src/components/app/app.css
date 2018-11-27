@@ -1,33 +1,43 @@
 html, body {
   background-color: rgb(15, 22, 15);
   font-family: 'Source Code Pro', monospace;
+  width: 960px;
+  margin: 0px auto;
 }
 
-a {
+/* a {
   color: lightblue;
   text-decoration: none;
 }
 
 ul :hover {
   color: rgb(158, 113, 165);
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   left: 0;
   bottom: 0;
   min-height: 10vh;
   background-color: rgb(26, 36, 26);
-}
+} */
 
-li {
+/* li { */
   /* display: inline-block; */
   /* text-align: center; */
-  margin: 15px;
+  /* margin: 15px;
   flex: .2;
   font-size: 1.7em;
-}
+} */
 
-li :hover {
+/* li :hover {
   color: rgb(158, 113, 165);
+} */
+
+@media screen and (max-width: 959px) {
+
+  html, body {
+    width: 100%;
+  }
+
 }
