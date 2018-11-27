@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './footer.css';
 
 class Footer extends React.Component {
   render() {
     return (
-      <div className='header'>
+      <div className='footer'>
         <nav>
           <li>
             <Link to='/'>Home</Link>

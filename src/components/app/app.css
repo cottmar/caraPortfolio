@@ -6,27 +6,34 @@ html, body {
 a {
   color: lightblue;
   text-decoration: none;
-}
+} 
 
-ul :hover {
+/* ul :hover {
   color: rgb(158, 113, 165);
-}
+} */ */
 
-nav {
-  position: fixed;
+/* nav {
+  display: flex;
   left: 0;
   bottom: 0;
-  width: 100%;
+  min-height: 10vh;
   background-color: rgb(26, 36, 26);
-  text-align: center;
-}
+} */
 
-li {
-  display: inline-block;
-  margin: 15px;
+/* li { */
+  /* display: inline-block; */
+  /* text-align: center; */
+  /* margin: 15px;
+  flex: .2;
   font-size: 1.7em;
-}
+} */
 
-li :hover {
+/* li :hover {
   color: rgb(158, 113, 165);
+} */
+
+
+
+@media screen and (max-width: 959px) {
+
 }

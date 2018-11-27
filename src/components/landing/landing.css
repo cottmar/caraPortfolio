@@ -1,6 +1,6 @@
 /* MOBILE  */
 
-@media only screen and (max-width: 640px) {  
+/* @media only screen and (max-width: 640px) {  
   .pic {
     height: 370px;
     width: 370px;
@@ -20,7 +20,7 @@
     text-align: center;
   }
   
-  .blurb h2 {
+  .landingRight h2 {
     color: mediumaquamarine;
     font-size: 1.3em;
     margin: 0;
@@ -33,15 +33,15 @@ span {
     font-size: 1.1em;
   }
 
-  .blurb a {
+  .landingRight a {
     margin: 0;
     padding: 10px;
   }
-}
+} */
 
  /* BROWSER  */
 
-@media only screen and (min-width: 640px) {
+/* @media only screen and (min-width: 640px) {
  
   .pic img {
     position: relative;
@@ -51,36 +51,198 @@ span {
     width: 28%;
   } 
 
-  .blurb {
+  .landingRight {
     height: 650px;
     width: 600px;
     margin-left: 600px;
     margin-top: -180px;
   }
 
-  .blurb h1 {
+  .landingRight h1 {
     color: lightpink;
     position: relative;
-    /* margin: 30px; */
-    /* padding: 20px; */
   }
 
-  .blurb h2 {
+  .landingRight h2 {
     color: mediumaquamarine;
     position: relative;
   }
 
-  .blurb span {
+  .landingRight span {
     color: #dca929;
   }
 
-  .blurb a {
+  .landingRight a {
     margin: 0;
     padding: 10px;
   }
 
-  a :hover {
+  .landingRight a :hover {
     color: rgb(158, 113, 165);
   }
 
+} */
+
+.landingContainer {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.landingLeft img {
+  height: 75%;
+  width: 75%;
+}
+
+.landingLeft {
+  width: 480px;
+  float: left;
+}
+
+.landingRight {
+  width: 480px;
+  float: left;
+}
+
+h1 {
+  color: lightpink;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.landingRight h2 {
+  color: mediumaquamarine;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 10px;
+  text-align: justify;
+}
+
+span {
+  color: rgb(220, 169, 41);
+  font-size: 1.1em;
+}
+
+.landingRight span {
+  color: #dca929;
+}
+
+/* .landingRight a :hover {
+  color: rgb(158, 113, 165);
+} */
+
+
+/* for tablets  */
+@media screen and (max-width: 959px) {
+  .landingContainer {
+    width: 100%;
+  }
+
+  .landingLeft {
+    float: left;
+  }
+
+  .landingRight {
+    float: left;
+  }
+
+  h1 {
+    color: lightpink;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .landingRight h2 {
+    color: mediumaquamarine;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  span {
+    color: rgb(220, 169, 41);
+    font-size: 1.1em;
+  }
+
+  .landingRight span {
+    color: #dca929;
+  }
+
+  /* .landingRight a :hover {
+    color: rgb(158, 113, 165);
+  } */
+}
+
+@media screen and (max-width: 640px) {
+  .landingLeft {
+    width: 100%;
+  }
+
+  .landingRight {
+    width: 100%;
+  }
+
+  h1 {
+    color: lightpink;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .landingRight h2 {
+    color: mediumaquamarine;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  span {
+    color: rgb(220, 169, 41);
+    font-size: 1.1em;
+  }
+
+  .landingRight span {
+    color: #dca929;
+  }
+
+  /* .landingRight a :hover {
+    color: rgb(158, 113, 165);
+  } */
+}
+
+@media screen and (max-width: 320px) {
+ .landingContainer {
+   width: 320px;
+ }
+
+  h1 {
+    color: lightpink;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .landingRight h2 {
+    color: mediumaquamarine;
+    font-size: 1.3em;
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  span {
+    color: rgb(220, 169, 41);
+    font-size: 1.1em;
+  }
+
+  .landingRight span {
+    color: #dca929;
+  }
+
+  /* .landingRight a :hover {
+    color: rgb(158, 113, 165);
+  } */
 }
