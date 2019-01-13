@@ -1,7 +1,6 @@
-
+/* 
 .footer nav {
   background-color: rgb(26, 36, 26);
-  /* color: lightblue; */
   list-style-type: none;
   font-size: 1.5rem;
   position: fixed;
@@ -30,7 +29,6 @@
   .footer nav, li {
     width: 100%;
     font-weight: 1rem;
-    /* display: inline-block; */
 
   }
 }
@@ -39,6 +37,5 @@
   .footer nav, li {
     width: 100%;
     font-weight: .5rem;
-    /* display: inline-block; */
   }
-}
+} */
