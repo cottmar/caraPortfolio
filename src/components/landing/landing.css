@@ -1,175 +1,33 @@
-/* MOBILE  */
+/* 
+.landingContainer = categoryDiv
+.imageContainer = ?
+.landingRight = categoryContent */
 
-/* @media only screen and (max-width: 640px) {  
-  .pic {
-    height: 370px;
-    width: 370px;
+/* Desktop View */
+  .landingContainer img {
+    width: 30%;
+    margin: 5%;
   }
-  
- .pic img {
-  position: absolute;
-	max-width: 80%;
-	top: 5%;
-	left: 10%;
- }
 
-  h1 {
-    color: lightpink;
+  .imageContainer img, .landingRight {
+    display: inline-block;
+    vertical-align: top;
     margin: 0;
-    padding: 0;
-    text-align: center;
+    padding: 5%;
   }
-  
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-  
-span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight a {
-    margin: 0;
-    padding: 10px;
-  }
-} */
-
- /* BROWSER  */
-
-/* @media only screen and (min-width: 640px) {
- 
-  .pic img {
-    position: relative;
-    left: 200px;
-    top: 150px;
-    height: 28%;
-    width: 28%;
-  } 
 
   .landingRight {
-    height: 650px;
-    width: 600px;
-    margin-left: 600px;
-    margin-top: -180px;
+    width: 50%;
   }
 
   .landingRight h1 {
     color: lightpink;
-    position: relative;
+    padding-bottom: 5%;
   }
 
   .landingRight h2 {
-    color: mediumaquamarine;
-    position: relative;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  .landingRight a {
-    margin: 0;
-    padding: 10px;
-  }
-
-  .landingRight a :hover {
-    color: rgb(158, 113, 165);
-  }
-
-} */
-
-.landingContainer {
-  width: 960px;
-  margin: 0px auto;
-  padding-top: 10%;
-}
-
-.landingLeft img {
-  height: 75%;
-  width: 75%;
-}
-
-.landingLeft {
-  width: 480px;
-  float: left;
-}
-
-.landingRight {
-  width: 480px;
-  float: left;
-}
-
-h1 {
-  color: lightpink;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.landingRight h2 {
-  color: mediumaquamarine;
-  font-size: 1.3em;
-  margin: 0;
-  padding: 10px;
-  text-align: justify;
-}
-
-span {
-  color: rgb(220, 169, 41);
-  font-size: 1.1em;
-}
-
-.landingRight span {
-  color: #dca929;
-}
-
-.landingRight a {
-  padding: 2.4%;
-  font-size: 1.3rem;
-}
-
-/* .landingRight a :hover {
-  color: rgb(158, 113, 165);
-} */
-
-
-/* for tablets  */
-@media screen and (max-width: 959px) {
-  .landingContainer {
-    width: 100%;
-  }
-
-  .landingLeft {
-    float: left;
-  }
-
-  .landingLeft img {
-    padding-left: 50px;
-    padding-top: 50px;
-  }
-
-  .landingRight {
-    float: left;
-    padding-top: 4%;
-  }
-
-  h1 {
-    color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .landingRight h2 {
-    color: mediumaquamarine;
+    color: aquamarine;
     font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
     text-align: justify;
   }
 
@@ -178,96 +36,92 @@ span {
     font-size: 1.1em;
   }
 
-  .landingRight span {
-    color: #dca929;
-  }
-
   .landingRight a {
-    padding: 3%;
+    padding: 10px;
   }
-}
 
-@media screen and (max-width: 640px) {
+  .landingRight a:hover {
+    color: rgb(158, 113, 165);
+  }
+
+
+/* Mobile View  */
+@media only screen and (max-width: 600px) {
 
   .landingContainer {
-    padding: 1px 1px 1px 2px;
-  }
-
-  .landingLeft {
     width: 100%;
+    height: auto;
   }
 
-  .landingLeft img {
-    margin-left: 30px;
-    padding: 20px;
+  .landingContainer img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .landingRight {
+    width: 100%;
     align-content: center;
   }
 
+  .landingRight h1 {
+    color: lightpink;
+    display: inline-block;
+    font-size: 1.7em;
+  }
+
+  .landingRight h2 {
+    color: aquamarine;
+    margin: 0;
+    margin-bottom: 5%;
+  }
+
+  .landingRight a:hover {
+    color: rgb(158, 113, 165);
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 600px) and (max-width: 1223px){
+  .landingContainer h1 {
+    color: red;
+  }
+
+
+  .landingContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .landingContainer img {
+    width: 100%;
+    margin: 0;
+  }
+
   .landingRight {
     width: 100%;
+    align-content: center;
   }
 
   .landingRight h1 {
     color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 2rem;
+    display: inline-block;
+    font-size: 1.7em;
   }
 
   .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.5rem;
+    color: aquamarine;
     margin: 0;
-    padding: 10px;
-    text-align: justify;
+    margin-bottom: 5%;
   }
 
-  span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  .landingRight a {
-    padding-left: 12px;
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .landingContainer {
-    width: 320px;
-  }
-
-  h1 {
-    color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-
-  span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  /* .landingRight a :hover {
+  .landingRight a:hover {
     color: rgb(158, 113, 165);
-  } */
+  }
 }
+
+/* .page-id-1577 .categoryContent div {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 25px;
+	margin-left: 20px;
+} */

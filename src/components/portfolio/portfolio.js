@@ -1,8 +1,8 @@
 import React from 'react';
-import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
-import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
-import sossms from '../../assets/sossms/Screen Shot 2018-11-05 at 11.07.30 PM.png';
-import strafford from '../../assets/strafford/0.png';
+// import finders from '../../assets/finders/Screen Shot 2018-11-05 at 11.07.56 PM.png';
+// import dogs from '../../assets/dogs/Screen Shot 2018-11-05 at 11.06.55 PM.png';
+// import sossms from '../../assets/sossms/Screen Shot 2018-11-05 at 11.07.30 PM.png';
+// import strafford from '../../assets/strafford/0.png';
 import './portfolio.css';
 
 class Portfolio extends React.Component {
@@ -13,7 +13,7 @@ class Portfolio extends React.Component {
         <h1>CARA OTTMAR</h1>
         <h2>Portfolio</h2>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="column">
               <div className="content">
                 <img src={finders} alt="game" link="https://github.com/spyosaurus/finders-keepers-frontend"></img>
@@ -42,7 +42,7 @@ class Portfolio extends React.Component {
                 <p>Client application advertising acreage marketed as "For Sale by Owner</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
       </div>
     );
