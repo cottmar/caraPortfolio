@@ -5,15 +5,16 @@ class Contact extends React.Component {
   render() {
     return (
       <div className='contactBlurb'>
-        <h1>I'm always happy<br></br>
-        to hear from you.</h1>
-        <h2>cara.ottmar@gmail.com</h2>
-        <ul>
-          <a href="https://github.com/cottmar">Github</a>
-        </ul>
-        <ul>
-          <a href="https://www.linkedin.com/in/cara-ottmar/">Linkedin</a>
-        </ul>
+        <p className="firstSentence">I'm always happy to hear from you.</p>
+        <p className="email" href="mailto:cara.ottmar@gmail.com">cara.ottmar@gmail.com</p>
+        <div className="socials">
+          <ul>
+            <a href="https://github.com/cottmar" target="_blank">Github</a>
+          </ul>
+          <ul>
+            <a href="https://www.linkedin.com/in/cara-ottmar/" target="_blank">Linkedin</a>
+          </ul>
+        </div>
       </div>
     )
   }
