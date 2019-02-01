@@ -1,273 +1,45 @@
-/* MOBILE  */
-
-/* @media only screen and (max-width: 640px) {  
-  .pic {
-    height: 370px;
-    width: 370px;
-  }
-  
- .pic img {
-  position: absolute;
-	max-width: 80%;
-	top: 5%;
-	left: 10%;
- }
-
-  h1 {
-    color: lightpink;
+/* Mobile View */
+@media screen and (max-width: 450px) {
+  .landingContainer .landingLeft img {
+    width: 100%;
     margin: 0;
     padding: 0;
-    text-align: center;
-  }
-  
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-  
-span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight a {
-    margin: 0;
-    padding: 10px;
-  }
-} */
-
- /* BROWSER  */
-
-/* @media only screen and (min-width: 640px) {
- 
-  .pic img {
-    position: relative;
-    left: 200px;
-    top: 150px;
-    height: 28%;
-    width: 28%;
-  } 
-
-  .landingRight {
-    height: 650px;
-    width: 600px;
-    margin-left: 600px;
-    margin-top: -180px;
   }
 
   .landingRight h1 {
     color: lightpink;
-    position: relative;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 35px;
+  }
+
+  .landingRight h2, .landingContainer span {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
   }
 
   .landingRight h2 {
-    color: mediumaquamarine;
-    position: relative;
+    padding: 0 10px 100px 10px;
+    color: aquamarine;
   }
 
   .landingRight span {
-    color: #dca929;
+    color: rgb(220, 169, 41);
   }
+}
 
-  .landingRight a {
-    margin: 0;
-    padding: 10px;
-  }
-
-  .landingRight a :hover {
-    color: rgb(158, 113, 165);
-  }
-
-} */
+/* Desktop View */
 
 .landingContainer {
-  width: 960px;
-  margin: 0px auto;
-  padding-top: 10%;
+  width: 100%;
 }
 
 .landingLeft img {
-  height: 75%;
-  width: 75%;
-}
-
-.landingLeft {
-  width: 480px;
-  float: left;
+  width: 50%;
 }
 
 .landingRight {
-  width: 480px;
-  float: left;
+  float: right;
 }
 
-h1 {
-  color: lightpink;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.landingRight h2 {
-  color: mediumaquamarine;
-  font-size: 1.3em;
-  margin: 0;
-  padding: 10px;
-  text-align: justify;
-}
-
-span {
-  color: rgb(220, 169, 41);
-  font-size: 1.1em;
-}
-
-.landingRight span {
-  color: #dca929;
-}
-
-.landingRight a {
-  padding: 2.4%;
-  font-size: 1.3rem;
-}
-
-/* .landingRight a :hover {
-  color: rgb(158, 113, 165);
-} */
-
-
-/* for tablets  */
-@media screen and (max-width: 959px) {
-  .landingContainer {
-    width: 100%;
-  }
-
-  .landingLeft {
-    float: left;
-  }
-
-  .landingLeft img {
-    padding-left: 50px;
-    padding-top: 50px;
-  }
-
-  .landingRight {
-    float: left;
-    padding-top: 4%;
-  }
-
-  h1 {
-    color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-
-  span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  .landingRight a {
-    padding: 3%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-
-  .landingContainer {
-    padding: 1px 1px 1px 2px;
-  }
-
-  .landingLeft {
-    width: 100%;
-  }
-
-  .landingLeft img {
-    margin-left: 30px;
-    padding: 20px;
-    align-content: center;
-  }
-
-  .landingRight {
-    width: 100%;
-  }
-
-  .landingRight h1 {
-    color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 2rem;
-  }
-
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-
-  span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  .landingRight a {
-    padding-left: 12px;
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .landingContainer {
-    width: 320px;
-  }
-
-  h1 {
-    color: lightpink;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-
-  .landingRight h2 {
-    color: mediumaquamarine;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 10px;
-    text-align: justify;
-  }
-
-  span {
-    color: rgb(220, 169, 41);
-    font-size: 1.1em;
-  }
-
-  .landingRight span {
-    color: #dca929;
-  }
-
-  /* .landingRight a :hover {
-    color: rgb(158, 113, 165);
-  } */
-}

@@ -6,15 +6,15 @@ class Landing extends React.Component {
   render() {
     return (
     <div className='landingContainer'>
-    <div className='landingLeft'>
-      <img src={me} alt="Cara"/>
-    </div>>
-    <div className='landingRight'>
-        <h1>Nice to meet you</h1>
-          <h2>My name is <span>Cara Ottmar</span>. I'm a <span>Web Developer</span> with Fullstack skills (MERN) and a background in the financial industry.<br></br>
-          </h2>
-          <a href="https://github.com/cottmar/markdownResume/blob/master/resume.md">Resume</a>
-    </div>
+      <div className='landingLeft'>
+        <img src={me} alt="Cara"/>
+      </div>>
+      <div className='landingRight'>
+          <h1>Nice to meet you</h1>
+            <h2>My name is <span>Cara Ottmar</span>. I'm a <span>Web Developer</span> with Fullstack skills (MERN) and a background in the financial industry.<br></br>
+            </h2>
+            <a href="https://github.com/cottmar/markdownResume/blob/master/resume.md" target="_blank">Resume</a>
+      </div>
     </div>
     )
   }
