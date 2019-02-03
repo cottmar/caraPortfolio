@@ -9,10 +9,10 @@ class Contact extends React.Component {
         <p className="email" href="mailto:cara.ottmar@gmail.com">cara.ottmar@gmail.com</p>
         <div className="socials">
           <ul>
-            <a href="https://github.com/cottmar" target="_blank">Github</a>
+            <a href="https://github.com/cottmar" target="_blank" rel="noopener noreferrer">Github</a>
           </ul>
           <ul>
-            <a href="https://www.linkedin.com/in/cara-ottmar/" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/cara-ottmar/" target="_blank" rel="noopener noreferrer">Linkedin</a>
           </ul>
         </div>
       </div>

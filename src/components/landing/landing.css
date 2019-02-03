@@ -1,5 +1,5 @@
 /* Mobile View */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .landingContainer .landingLeft img {
     width: 100%;
     margin: 0;
@@ -9,7 +9,6 @@
   .landingRight h1 {
     color: lightpink;
     text-align: center;
-    padding-bottom: 5px;
     font-size: 35px;
   }
 
@@ -20,26 +19,13 @@
   }
 
   .landingRight h2 {
-    padding: 0 10px 100px 10px;
-    color: aquamarine;
+    padding: 0 10px 90px 10px;
+    color: #7fffd4;
+    margin: 5px 0 0 0;
   }
 
   .landingRight span {
     color: rgb(220, 169, 41);
   }
-}
-
-/* Desktop View */
-
-.landingContainer {
-  width: 100%;
-}
-
-.landingLeft img {
-  width: 50%;
-}
-
-.landingRight {
-  float: right;
 }
 
