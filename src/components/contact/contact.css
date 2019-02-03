@@ -9,6 +9,10 @@
     font-size: 30px;
   }
 
+  .contactBlurb p {
+    text-align: center;
+  }
+
   .email {
     color: rgb(220, 169, 41);
     font-size: 25px;
