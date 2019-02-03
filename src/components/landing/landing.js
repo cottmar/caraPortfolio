@@ -8,7 +8,7 @@ class Landing extends React.Component {
     <div className='landingContainer'>
       <div className='landingLeft'>
         <img src={me} alt="Cara"/>
-      </div>>
+      </div>
       <div className='landingRight'>
           <h1>Nice to meet you</h1>
             <h2>My name is <span>Cara Ottmar</span>. I'm a <span>Web Developer</span> with Fullstack skills (MERN). I'm passionate about working with mission based organizations, building software and applications that help solve problems and improve lives.<br></br>
