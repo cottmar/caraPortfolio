@@ -40,18 +40,35 @@
 @media only screen and (min-width: 640px) {
   .contactBlurb {
     width: 100%;
-    padding-top: 20%;
-    font-size: 40px;
+    height: 100%;
+    display: inline-block;
+    /* padding-top: 60px; */
+    vertical-align: middle;
+  }
+
+  .firstSentence {
+    color: mediumaquamarine;
+    text-align: center;
+    font-size: 20px;
   }
 
   .contactBlurb .email {
     color: rgb(220, 169, 41);
+    font-size: 15px;
+    text-align: center;
   }
 
-  .socials {
+  .socials a {
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 15px;
+    color: lightpink;
+  }
+
+  .socials ul {
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px 0;
   }
   
   .socials ul a:hover {
