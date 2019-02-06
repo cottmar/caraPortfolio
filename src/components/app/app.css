@@ -1,39 +1,11 @@
 html, body {
   background-color: rgb(15, 22, 15);
   font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: lightblue;
   text-decoration: none;
 } 
-
-/* ul :hover {
-  color: rgb(158, 113, 165);
-} */ */
-
-/* nav {
-  display: flex;
-  left: 0;
-  bottom: 0;
-  min-height: 10vh;
-  background-color: rgb(26, 36, 26);
-} */
-
-/* li { */
-  /* display: inline-block; */
-  /* text-align: center; */
-  /* margin: 15px;
-  flex: .2;
-  font-size: 1.7em;
-} */
-
-/* li :hover {
-  color: rgb(158, 113, 165);
-} */
-
-
-
-@media screen and (max-width: 959px) {
-
-}
