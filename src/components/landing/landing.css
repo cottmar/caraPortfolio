@@ -30,6 +30,27 @@
 }
 
 @media screen and (min-width: 481px) {
+  .landingLeft {
+    display: inline-block;
+  }
 
+  .landingLeft img {
+    display: inline-block;
+    width: 175px;
+  }
+
+  .landingContainer {
+    display: inline-block;
+  }
+
+  .landingRight span, .landingRight h1, .landingRight h2, .landingRight a {
+    display: inline-block;
+    /* float: right; */
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+    width: 30vw;
+    /* height: 20px; */
+  }
 }
 
