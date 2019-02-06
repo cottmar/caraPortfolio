@@ -21,3 +21,17 @@ class Landing extends React.Component {
 }
 
 export default Landing;
+
+{/* <div class="categoryDiv">
+<img class="alignnone size-full wp-image-2105" src="https://certifiedautismtravel.com/wp-content/uploads/2019/01/Asset-18.png" alt="" width="31" height="31" />
+<h2 class="blueTitle">BEACHES</h2>
+</div>
+<div class="categoryContent">
+<img class="alignnone size-full wp-image-2316" src="https://certifiedautismtravel.com/wp-content/uploads/2019/01/Asset-18-1.png" alt="" width="117" height="117" />
+<div class="titleAndBadge">
+<a href="https://certifiedautismtravel.com/projects/beaches-turks-and-caicos/">
+<span id="turksColor" class="links">Beaches: Turks and Caicos</span>
+</a>
+<h3 class="badgeID">In Review</h3>
+</div>
+</div> */}
