@@ -1,4 +1,4 @@
-
+/* mobile view */
 @media screen and (max-width: 480px) {
   .content img {
     width: 100%;
@@ -31,5 +31,69 @@
 
   .content #lastP {
     padding-bottom: 70px;
+  }
+}
+
+/* @media screen and (min-width: 481px) {
+  .main h1 {
+    color: rgb(220, 169, 41); 
+  }
+
+  .content img, .content h3, .content p, .content #lastP {
+    display: inline-block;
+    margin: 0 0 10px 40px;
+    padding: 0 5px 0;
+    width: 175px;
+  }
+
+  .content {
+    padding-bottom: 10px;
+  }
+
+} */
+
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+.main h1 {
+  color: rgb(220, 169, 41); 
+}
+
+.content img {
+  display: inline-block;
+  width: 175px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
 }
