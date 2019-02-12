@@ -7,7 +7,6 @@
   .column {
     border-style: double;
     color:lightpink;
-    /* padding: 10px; */
     margin: 15px;
   }
 
@@ -34,66 +33,36 @@
   }
 }
 
-/* @media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) {
   .main h1 {
-    color: rgb(220, 169, 41); 
+    color: rgb(220, 169, 41);
+    margin: 5px;
+    padding-left: 10px;
   }
 
-  .content img, .content h3, .content p, .content #lastP {
-    display: inline-block;
-    margin: 0 0 10px 40px;
-    padding: 0 5px 0;
-    width: 175px;
-  }
-
-  .content {
-    padding-bottom: 10px;
-  }
-
-} */
-
-.row,
-.row > .column {
-  padding: 5px;
-}
-
-.main h1 {
-  color: rgb(220, 169, 41); 
-}
-
-.content img {
-  display: inline-block;
-  width: 175px;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-  width: 200px;
-}
-
-@media screen and (max-width: 900px) {
   .column {
-    width: 50%;
+    width: 22%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .column {
+  .main img {
     width: 100%;
+  }
+
+  .main h3, .main p {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .main h3 {
+    text-align: center;
+    color: rgb(220, 169, 41);
+  }
+
+  .main p {
+    color: mediumaquamarine;
+    padding: 5px 5px 50px 5px;
   }
 }
