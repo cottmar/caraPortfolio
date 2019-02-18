@@ -37,24 +37,26 @@
 
   .landingLeft img {
     display: inline-block;
-    width: 70%;
-    padding: 30px 0 30px 40px;
+    width: 60%;
+    padding: 22% 20% 28% 28%;
   }
 
   .landingRight {
     float: right;
     width: 50%;
-    padding: 30px 0px 30px 0;
+    padding: 12% 0px 18% 0;
   }
 
   .landingRight h1 {
     color: lightpink;
-    font-size: 20px;
+    font-size: 30px;
+    width: 70%;
   }
 
   .landingRight h2 {
     color: #7fffd4;
-    font-size: 15px;
+    font-size: 20px;
+    width: 70%;
   }
 
   .landingRight h2 span {
@@ -62,4 +64,3 @@
     font-size: 15px;
   }
 }
-
