@@ -1,6 +1,6 @@
 import React from 'react';
 import me from '../../assets/me/00100sPORTRAIT_00100_BURST20180917083737026_COVER.jpg';
-import resume from '../../assets/resume/Cara Ottmar - Resume pdf.pdf';
+import resume from '../../assets/resume/Cara Ottmar-Resume-May19.pdf';
 import './landing.css';
 
 class Landing extends React.Component {
