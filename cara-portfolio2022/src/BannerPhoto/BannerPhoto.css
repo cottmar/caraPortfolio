@@ -1,0 +1,14 @@
+.p {
+    color: #00ff00;
+}
+
+.banner-image img {
+    height: 1047px;
+    width: 228.633;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
