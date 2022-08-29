@@ -1,0 +1,47 @@
+.container {
+  height: 250px;
+  background-color:black;
+}
+
+.container p {
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 30px;
+  font-size: 5.75em;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .container p {
+    font-size: .7em;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container p {
+    font-size: .7em;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container p {
+    font-size: .7em;
+  }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .container p {
+    font-size: .7em;
+  }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .container p {
+    font-size: 70%;
+  }
+ }
