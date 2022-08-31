@@ -4,6 +4,7 @@ import { ReactDOM } from 'react-dom';
 import './App.css';
 import Header from './Header/Header';
 import AboutMe from './AboutMe/AboutMe';
+import Portfolio from './Portfolio/Portfolio';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
     <div className="App">
       <Header />
       <AboutMe />
+      <Portfolio />
     </div>
   );
 }
