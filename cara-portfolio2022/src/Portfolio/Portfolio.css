@@ -7,6 +7,10 @@
     height: 100%;
 }
 
+.container-lg {
+    
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 

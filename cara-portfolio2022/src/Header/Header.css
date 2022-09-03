@@ -1,21 +1,35 @@
-/* .container-fluid {
+.row-header h1 {
+  font-size: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  width: 100vw;
-} */
+}
+
+.row-header span {
+  color: purple;
+}
+
+
+/* .container-fluid {
+  --bs-gutter-x: 0;
+}
 
 .App-greeting {
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     background: linear-gradient(90deg, #f9dede 50%, #f1eeea 50%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* font-size: calc(70px + 2vmin);
+  }
+
+  .hello-greeting {
+    font-size: calc(5.375rem + 3.5vw);
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: calc(70px + 2vmin);
-    color: black;
-  }
-
-  .App-greeting h1 span{
-    padding: 0;
   }
   
   .period-accent {
@@ -23,15 +37,13 @@
   }
 
   .introduction {
-    width: 100vw;
     display: block;
     opacity: 0.7;
-    color: black;
     text-align: center;
     font-size: 0.65em;
-  }
+  } */ 
 
-  @media only screen and (max-width: 480px) {
+  /* @media only screen and (max-width: 480px) {
     .App-header {
       height: 100vh;
       width: 100vw;
@@ -47,4 +59,4 @@
     .introduction {
       font-size: .57em;
     }
-  }
+  } */
