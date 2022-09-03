@@ -1,6 +1,5 @@
 import React, { useLayoutEffect, useRef, useState } from 'react';
-import { ReactDOM } from 'react-dom';
-// need to import styles???
+// import { ReactDOM } from 'react-dom';
 import './App.css';
 import Header from './Header/Header';
 import AboutMe from './AboutMe/AboutMe';
@@ -24,8 +23,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <AboutMe />
-      <Portfolio />
+      {/* <AboutMe />
+      <Portfolio /> */}
     </div>
   );
 }
