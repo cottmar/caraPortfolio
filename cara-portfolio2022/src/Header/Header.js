@@ -11,8 +11,11 @@ const Header = () => {
         height: '100vh', 
         padding: '0',
       }}>
-      <Row className='row-header'>
-        <h1>He<br></br>llo</h1>        
+      <Row>
+        <div className='row-header'>
+          <h1>He<br></br> llo</h1> 
+          <p>My name is Cara. I'm a React Developer.</p>       
+        </div>
       </Row>
     </div>
   )
