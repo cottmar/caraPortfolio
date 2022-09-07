@@ -23,8 +23,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      {/* <AboutMe />
-      <Portfolio /> */}
+      {/* <AboutMe /> */}
+      {/* <Portfolio /> */}
     </div>
   );
 }

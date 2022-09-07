@@ -1,4 +1,3 @@
-import glacier from '../assets/headerPic/glacier.jpg';
 import './AboutMe.css'
 
 const AboutMe = () => {
