@@ -1,56 +1,39 @@
 import React from 'react';
+import Cara from '../assets/myAvatar/cara.png';
 import { Hero, Columns, Footer, Container, Heading } from 'react-bulma-components';
 import './Header.css';
 
 const Header = () => {
   return (
-<section className="hero is-danger is-fullheight">
-  {/* <!-- Hero head: will stick at the top --> */}
-  <div className="hero-head">
-  </div>
-
-  {/* <!-- Hero content: will be in the middle --> */}
-  <div className="hero-body">
-    <div className="container has-text-centered">
-      <p className="title">
-        Hello
-      </p>
-      <p className="subtitle">
-        My name is Cara. I am a React Developer.
-      </p>
+  <section className="hero is-white is-fullheight">
+    {/* <!-- Hero head: will stick at the top --> */}
+    <div className="hero-head">
     </div>
-  </div>
 
-  {/* <!-- Hero footer: will stick at the bottom --> */}
-  <div className="hero-foot">
-  </div>
-</section>
+    {/* <!-- Hero content: will be in the middle --> */}
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <p 
+          className="title"
+        >
+          Greetings, Earthlings!
+        </p>
+        <p className="subtitle">
+          My name is Cara. I am a React Developer.
+        </p>
+        <img src={Cara} className="image is-128x128" alt="avatar of girl with brunette hair and green eyes, smiling"/>
+      </div>
+    </div>
+
+    {/* <!-- Hero footer: will stick at the bottom --> */}
+    <div className="hero-foot">
+    </div>
+  </section>
   )
 }
 
 export default Header;
 
-
-{/* <Hero style={{backgroundColor: 'pink'}} classNameName="hero is-fullheight">
-<Hero.Body style={{backgroundColor: 'lime'}}classNameName='hero-body'>
-    <Columns style={{backgroundColor:'green'}}>
-      <h1 
-        classNameName="title is-centered"
-        style={{
-          fontSize: '6em',
-          backgroundColor: 'blue'
-        }}>
-      Hello
-      </h1>
-      <h2 
-        classNameName="subtitle is-centered"
-        style={{backgroundColor: 'red'}}  
-      >
-        My name is Cara. I am a React Developer.
-      </h2>
-    </Columns>
-</Hero.Body>
-</Hero> */}
 
 // import React from 'react';
 // import Row from 'react-bootstrap/Row';
