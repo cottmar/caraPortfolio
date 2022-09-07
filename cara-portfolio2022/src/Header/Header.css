@@ -3,60 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
 }
 
-.row-header span {
-  color: purple;
+.row-header p {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-/* .container-fluid {
-  --bs-gutter-x: 0;
-}
-
-.App-greeting {
-    height: 100vh;
-    overflow: hidden;
-    background: linear-gradient(90deg, #f9dede 50%, #f1eeea 50%);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* font-size: calc(70px + 2vmin);
-  }
-
-  .hello-greeting {
-    font-size: calc(5.375rem + 3.5vw);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .period-accent {
-    color:red;
-  }
-
-  .introduction {
-    display: block;
-    opacity: 0.7;
-    text-align: center;
-    font-size: 0.65em;
-  } */ 
-
-  /* @media only screen and (max-width: 480px) {
-    .App-header {
-      height: 100vh;
-      width: 100vw;
-    }
-
-    .App-greeting {
-      font-size: calc(30px + 2vmin);
-      align-items: center;
-      justify-content: center;
-      font-weight: bolder;
-    }
-
-    .introduction {
-      font-size: .57em;
-    }
-  } */
