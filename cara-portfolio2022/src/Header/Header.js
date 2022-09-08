@@ -1,8 +1,6 @@
 import React from 'react';
 import Cara from '../assets/myAvatar/cara.png';
 import Mountain from '../assets/mountain/mountain image.png';
-import { Hero, Columns, Footer, Container, Heading } from 'react-bulma-components';
-import './Header.css';
 
 const Header = () => {
   return (
@@ -22,8 +20,8 @@ const Header = () => {
         <p className="subtitle">
           My name is Cara and I am a React Developer.
         </p>
-        <div class="card-image has-text-centered">
-          <figure class="image is-128x128 is-inline-block">
+        <div className="card-image has-text-centered">
+          <figure className="image is-128x128 is-inline-block">
               <img className="image is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
           </figure>
         </div>
@@ -31,9 +29,9 @@ const Header = () => {
     </div>
 
     {/* <!-- Hero footer: will stick at the bottom --> */}
-    <div className="hero-foot">
-      <div class="card-image has-text-centered">
-          <figure class="image is-fullwidth">
+    <div className="hero-foot" >
+      <div className="card-image has-text-centered">
+          <figure className="image is-fullwidth mb-0">
               <img src={Mountain} className="image is-16x9" alt="cartoon depiction of mountain range with snowcapped tops."/>
           </figure>
         </div>
@@ -43,30 +41,3 @@ const Header = () => {
 }
 
 export default Header;
-
-
-// import React from 'react';
-// import Row from 'react-bootstrap/Row';
-// import 'bulma/css/bulma.min.css';
-// import './Header.css';
-
-// const Header = () => {
-//   return (
-//     <div 
-//       style={{
-//         background: 'linear-gradient(90deg, #cd2026 50%, #f1eeea 50%)',
-//         color: 'black',
-//         height: '100vh', 
-//         padding: '0',
-//       }}>
-//       <Row>
-//         <div classNameName='row-header'>
-//           <h1>He<br></br> llo</h1> 
-//           <p>My name is Cara. I'm a React Developer.</p>       
-//         </div>
-//       </Row>
-//     </div>
-//   )
-// }
-
-// export default Header;
