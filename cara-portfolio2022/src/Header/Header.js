@@ -19,9 +19,13 @@ const Header = () => {
           Greetings, Earthlings!
         </p>
         <p className="subtitle">
-          My name is Cara. I am a React Developer.
+          My name is Cara and I am a React Developer.
         </p>
-        <img src={Cara} className="image is-128x128" alt="avatar of girl with brunette hair and green eyes, smiling"/>
+        <div class="card-image has-text-centered">
+          <figure class="image is-128x128 is-inline-block">
+              <img class="is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
+          </figure>
+        </div>
       </div>
     </div>
 
