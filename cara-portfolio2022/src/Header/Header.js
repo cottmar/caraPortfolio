@@ -1,5 +1,6 @@
 import React from 'react';
 import Cara from '../assets/myAvatar/cara.png';
+import Mountain from '../assets/mountain/mountain image.png';
 import { Hero, Columns, Footer, Container, Heading } from 'react-bulma-components';
 import './Header.css';
 
@@ -23,7 +24,7 @@ const Header = () => {
         </p>
         <div class="card-image has-text-centered">
           <figure class="image is-128x128 is-inline-block">
-              <img class="is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
+              <img className="image is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
           </figure>
         </div>
       </div>
@@ -31,6 +32,11 @@ const Header = () => {
 
     {/* <!-- Hero footer: will stick at the bottom --> */}
     <div className="hero-foot">
+      <div class="card-image has-text-centered">
+          <figure class="image is-fullwidth">
+              <img src={Mountain} className="image is-16x9" alt="cartoon depiction of mountain range with snowcapped tops."/>
+          </figure>
+        </div>
     </div>
   </section>
   )
