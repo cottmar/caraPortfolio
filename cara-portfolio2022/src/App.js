@@ -24,7 +24,7 @@ const App = () => {
     <div className="App">
       <Header />
       <AboutMe />
-      {/* <Portfolio /> */}
+      <Portfolio />
     </div>
   );
 }

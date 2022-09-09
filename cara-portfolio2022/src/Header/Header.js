@@ -20,8 +20,9 @@ const Header = () => {
         <p className="subtitle">
           My name is Cara and I am a React Developer.
         </p>
-        <div className="card-image has-text-centered">
+        <div className="card-image has-text-centered pt-17 mt-8">
           <figure className="image is-128x128 is-inline-block">
+          {/* <figure className="has-ratio" width='140'height='140'> */}
               <img className="image is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
           </figure>
         </div>
@@ -34,7 +35,7 @@ const Header = () => {
           <figure className="image is-fullwidth mb-0">
               <img src={Mountain} className="image is-16x9" alt="cartoon depiction of mountain range with snowcapped tops."/>
           </figure>
-        </div>
+      </div>
     </div>
   </section>
   )
