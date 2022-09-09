@@ -1,7 +1,6 @@
 import React from 'react';
 import Cara from '../assets/myAvatar/cara.png';
-import { Hero, Columns, Footer, Container, Heading } from 'react-bulma-components';
-import './Header.css';
+import Mountain from '../assets/mountain/mountain image.png';
 
 const Header = () => {
   return (
@@ -19,44 +18,27 @@ const Header = () => {
           Greetings, Earthlings!
         </p>
         <p className="subtitle">
-          My name is Cara. I am a React Developer.
+          My name is Cara and I am a React Developer.
         </p>
-        <img src={Cara} className="image is-128x128" alt="avatar of girl with brunette hair and green eyes, smiling"/>
+        <div className="card-image has-text-centered pt-17 mt-8">
+          <figure className="image is-128x128 is-inline-block">
+          {/* <figure className="has-ratio" width='140'height='140'> */}
+              <img className="image is-rounded" src={Cara} alt="avatar of girl with brunette hair and green eyes, smiling"/>
+          </figure>
+        </div>
       </div>
     </div>
 
     {/* <!-- Hero footer: will stick at the bottom --> */}
-    <div className="hero-foot">
+    <div className="hero-foot" >
+      <div className="card-image has-text-centered">
+          <figure className="image is-fullwidth mb-0">
+              <img src={Mountain} className="image is-16x9" alt="cartoon depiction of mountain range with snowcapped tops."/>
+          </figure>
+      </div>
     </div>
   </section>
   )
 }
 
 export default Header;
-
-
-// import React from 'react';
-// import Row from 'react-bootstrap/Row';
-// import 'bulma/css/bulma.min.css';
-// import './Header.css';
-
-// const Header = () => {
-//   return (
-//     <div 
-//       style={{
-//         background: 'linear-gradient(90deg, #cd2026 50%, #f1eeea 50%)',
-//         color: 'black',
-//         height: '100vh', 
-//         padding: '0',
-//       }}>
-//       <Row>
-//         <div classNameName='row-header'>
-//           <h1>He<br></br> llo</h1> 
-//           <p>My name is Cara. I'm a React Developer.</p>       
-//         </div>
-//       </Row>
-//     </div>
-//   )
-// }
-
-// export default Header;

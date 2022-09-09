@@ -1,5 +1,10 @@
 
-.App {
+html, body {
   font-family: 'Helvetica';
   font-weight: bold;
+  /* background-color: #fdb81e; */
+/* might delete the below */
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column; */
 }
