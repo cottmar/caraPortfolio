@@ -1,11 +1,11 @@
 import React, { useLayoutEffect, useRef, useState } from 'react';
-// import { ReactDOM } from 'react-dom';
 import './App.css';
 import Header from './Header/Header';
 import AboutMe from './AboutMe/AboutMe';
 import PortfolioIntro from './Portfolio/PortfolioIntro';
 import Basemap from './Portfolio/Basemap';
 import TherapySpotter from './Portfolio/TherapySpotter';
+import Strafford from './Portfolio/Strafford';
 
 const App = () => {
 
@@ -29,6 +29,7 @@ const App = () => {
       <PortfolioIntro />
       <Basemap />
       <TherapySpotter />
+      <Strafford />
     </div>
   );
 }
