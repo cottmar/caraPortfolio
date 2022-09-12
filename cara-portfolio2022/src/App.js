@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import AboutMe from './AboutMe/AboutMe';
 import PortfolioIntro from './Portfolio/PortfolioIntro';
 import Basemap from './Portfolio/Basemap';
+import TherapySpotter from './Portfolio/TherapySpotter';
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <AboutMe />
       <PortfolioIntro />
       <Basemap />
+      <TherapySpotter />
     </div>
   );
 }
