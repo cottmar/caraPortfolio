@@ -3,7 +3,8 @@ import React, { useLayoutEffect, useRef, useState } from 'react';
 import './App.css';
 import Header from './Header/Header';
 import AboutMe from './AboutMe/AboutMe';
-import Portfolio from './Portfolio/Portfolio';
+import PortfolioIntro from './Portfolio/PortfolioIntro';
+import Basemap from './Portfolio/Basemap';
 
 const App = () => {
 
@@ -24,7 +25,8 @@ const App = () => {
     <div className="App">
       <Header />
       <AboutMe />
-      <Portfolio />
+      <PortfolioIntro />
+      <Basemap />
     </div>
   );
 }
