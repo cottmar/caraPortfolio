@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useRef, useState } from 'react';
 import './App.css';
 import Header from './Header/Header';
+import NavBar from './navBar/NavBar';
 import AboutMe from './AboutMe/AboutMe';
 import PortfolioIntro from './Portfolio/PortfolioIntro';
 import Basemap from './Portfolio/Basemap';
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <NavBar />
       <Header />
       <AboutMe />
       <PortfolioIntro />
