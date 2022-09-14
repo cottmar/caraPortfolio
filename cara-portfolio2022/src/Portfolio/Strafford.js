@@ -6,8 +6,8 @@ const Strafford = () => {
     return (
         <section className='box'>
             <div className='columns'>
-            <a href="https://github.com/cottmar/straffordLandWebsite" alt="link to github repository" target="_blank"><img src={Straff2} className='column is-half' alt=""/></a>
-                    <a href="https://github.com/cottmar/straffordLandWebsite" alt="link to github repository" target="_blank"><img src={Straff} className='column is-half' alt=""/></a>
+            <a href="https://github.com/cottmar/straffordLandWebsite" alt="link to github repository" target="_blank"><img src={Straff2} className='column is-half' alt="aerial view of google map area"/></a>
+                    <a href="https://github.com/cottmar/straffordLandWebsite" alt="link to github repository" target="_blank"><img src={Straff} className='column is-half' alt="screenshot of website depicting photo of farmland"/></a>
             </div>
             <div className="columns box has-text-black">
                 <div class="column is-half has-text-centered is-size-5 pt-6" style={{ border: '5px solid rgba(0, 0, 0, 0.05)'}}>
