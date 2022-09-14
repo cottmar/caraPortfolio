@@ -1,11 +1,15 @@
 import { React } from 'react';
-import Ther from '../assets/therapy/therapy spotter.png'
+import Ther from '../assets/therapy/therapy spotter.png';
+import Ther2 from '../assets/therapy/therapyspotter2.png';
+import Ther3 from '../assets/therapy/therapyspotter3.png';
 
 const TherapySpotter = () => {
     return (
         <section className='box has-text-black'>
-            <div className='image is-3by1'>
-            <img src={Ther} alt="Image of Therapy Spotter, showing location and contact information of a local Autism therapy group"/>
+            <div className='columns'>
+            <img src={Ther} alt="Image of Therapy Spotter, showing location and contact information of a local Autism therapy group" className='column is-one-third'/>
+            <img src={Ther2} alt="Image of Therapy Spotter, showing location and contact information of a local Autism therapy group" className='column is-one-third'/>
+            <img src={Ther3} alt="Image of Therapy Spotter, showing location and contact information of a local Autism therapy group" className='column is-one-third'/>
             </div>
             <div class="columns box">
                 <div class="column is-half has-text-centered is-size-4 pt-6">
