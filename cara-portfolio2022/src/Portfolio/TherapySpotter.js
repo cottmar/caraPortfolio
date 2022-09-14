@@ -12,10 +12,10 @@ const TherapySpotter = () => {
             <img src={Ther3} alt="Image of Therapy Spotter, showing location and contact information of a local Autism therapy group" className='column is-one-third'/>
             </div>
             <div class="columns box">
-                <div class="column is-half has-text-centered is-size-4 pt-6">
+                <div class="column is-half has-text-centered is-size-5 pt-6" style={{ border: '5px solid rgba(0, 0, 0, 0.05)'}}>
                     <p>Therapy Spotter was a web based tool for finding local therapists. I used Axios to complete the HTTP requests on the client side, and worked on styling the page to not only look good but be WCAG friendly.</p>
                 </div>
-                <div class="column is-half has-text-centered">
+                <div class="column is-half has-text-centered" style={{ border: '5px solid rgba(0, 0, 0, 0.05)'}}>
                     <h3 className='is-size-3 pt-1'>Role: Frontend and Wordpress Developer Intern</h3>
                     <p>Dev Tools: </p>
                     <li style={{ listStyleType: 'none' }}>TypeScript || NodeJS</li>

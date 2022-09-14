@@ -7,11 +7,11 @@ function Basemap() {
             <div className='image is-3by1'>
                 <a href="https://app.basemap.com/" alt="Basemap Web App Homepage link" target="_blank"><img src={Base} alt="Basemap App logo"/></a>
             </div>
-            <div class="columns box">
-                <div class="column is-half has-text-centered is-size-4 pt-6">
+            <div className="columns box">
+                <div className="column is-half has-text-centered is-size-5 pt-6" style={{ border: '5px solid rgba(0, 0, 0, 0.05)'}}>
                         <p>Basemap, Inc. is an app built for GPS mapping and activity planning. Delivered an end-to-end web overhaul based on design and technical specification. I worked closely with designer and leads to define scope, development roadmap and deployment release cycle. Established bi-weekly sprint cadence, leveraging Jira/Atlassian as the guide for feature development and bug fixes.</p>
                 </div>
-                <div class="column is-half has-text-centered">
+                <div className="column is-half has-text-centered" style={{ border: '5px solid rgba(0, 0, 0, 0.05)'}}>
                     <h3 className='is-size-3 pt-1'>Role: Full Stack Web Developer</h3>
                     <p>Dev Tools: </p>
                     <li style={{ listStyleType: 'none' }}>ReactJS || NodeJS</li>
