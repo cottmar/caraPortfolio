@@ -7,6 +7,7 @@ import PortfolioIntro from './Portfolio/PortfolioIntro';
 import Basemap from './Portfolio/Basemap';
 import TherapySpotter from './Portfolio/TherapySpotter';
 import Strafford from './Portfolio/Strafford';
+import Footer from './Footer/Footer';
 
 const App = () => {
 
@@ -32,6 +33,7 @@ const App = () => {
       <Basemap />
       <TherapySpotter />
       <Strafford />
+      <Footer />
     </div>
   );
 }
