@@ -5,8 +5,8 @@ const NavBar = () => {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            <img src={Chi} className="image is-48x48" />
+          <a className="navbar-item" href="https://www.github.com/cottmar">
+            <img src={Chi} className="image is-48x48" alt="cartoon icon of a chihuahua face"/>
           </a>
       
           <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

@@ -11,7 +11,7 @@ const Footer = () => {
                     <li>React - The Complete Guide - Udemy</li>
                     <li>Bachelor of Science - Missouri State University</li>
                 </div>
-                
+                <h2>Please send me an <a href="mailto: cara.ottmar@gmail.com">email </a>if you want to talk more!</h2>
             </div>
         </footer>
     )
